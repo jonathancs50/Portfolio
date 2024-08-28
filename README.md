@@ -1,2 +1,2 @@
-# Visit my site 
-[a link] ([https://jonathancs50.github.io/Portfolio/])
+# Visit my Portfolio Site 
+https://jonathancs50.github.io/Portfolio/
