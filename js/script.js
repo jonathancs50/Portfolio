@@ -142,3 +142,23 @@ document
         console.error("Failed to copy email: ", error);
       });
   });
+document
+  .getElementById("copyEmail")
+  .addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent the default mailto action
+
+    // Copy the email to the clipboard
+    const email = "jonloxton15@gmail.com";
+    navigator.clipboard
+      .writeText(email)
+      .then(function () {
+        // Change link text to show it has been copied
+        const link = document.getElementById("copyEmail");
+        const originalText = link.textContent;
+        link.textContent = "Email copied!";
+        setTimeout(() => (link.textContent = originalText), 2000); // Revert text after 2 seconds
+      })
+      .catch(function (error) {
+        console.error("Failed to copy email: ", error);
+      });
+  });

@@ -629,7 +629,13 @@ a {
   column-gap: 3.2rem;
   row-gap: 2.4rem;
 }
-
+.underline {
+  text-decoration: underline;
+  color: #e67e22 !important;
+}
+.text-with-space {
+  word-spacing: 10px; /* Adds space between words */
+}
 .cta-form label {
   display: block;
   font-size: 1.6rem;
