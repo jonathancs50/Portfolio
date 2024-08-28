@@ -121,3 +121,24 @@ document
       "https://www.linkedin.com/in/jonathan-loxton-1888111bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0qIhd04AToi5cSSxtKaRfQ%3D%3D"
     );
   });
+
+document
+  .getElementById("copyEmailLink")
+  .addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent the default mailto action
+
+    // Copy the email to the clipboard
+    const email = "jonloxton15@gmail.com";
+    navigator.clipboard
+      .writeText(email)
+      .then(function () {
+        // Change link text to show it has been copied
+        const link = document.getElementById("copyEmailLink");
+        const originalText = link.textContent;
+        link.textContent = "Email copied!";
+        setTimeout(() => (link.textContent = originalText), 2000); // Revert text after 2 seconds
+      })
+      .catch(function (error) {
+        console.error("Failed to copy email: ", error);
+      });
+  });
