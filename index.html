@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/citylogo_icon_64x64.png" />
+    <link rel="apple-touch-icon" href="img/citylogo_appleicon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Jonathan Loxton Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo main-nav-link no-focus" href="#">
+        Jonathan<span class="fullstop_style">.</span>Loxton
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#aboutMe">About Me</a></li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li>
+            <a class="main-nav-link" href="#skill">Skills</a>
+          </li>
+          <li><a class="main-nav-link" href="#resume">Learnings</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-img-box profile-imgs">
+            <img src="img/portfoliio_profile pictur.jpg" alt="Profile phote" />
+            <!-- <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture> -->
+          </div>
+          <div class="hero-text-box">
+            <h1 class="heading-primary intro-profile">Hi, I'm Jonathan</h1>
+            <p class="hero-description_h2 intro-profile">
+              Welcome to my portfolio!
+            </p>
+            <p class="hero-description intro-profile">
+              I discovered my passion for programming through the Harvard CS50
+              course in COVID, which sparked my journey into the world of
+              computer science. Since then, I have earned my Bachelor of Science
+              in Computer Science and have been actively building projects.Right
+              now I am currently enjoying learning about backend development You
+              can find out more about me and explore my projects below on this
+              website.
+            </p>
+            <div class="intro-profile">
+              <a href="#aboutMe" class="btn btn_width btn--outline"
+                >Begin &darr;</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Education</h2>
+          <div class="logos">
+            <img src="img/logos/unisa_logo.png" alt="UNISA" />
+            <img
+              src="img/logos/Waterstone-logo_edit-removebg-preview.png"
+              alt="Udemy logo"
+            />
+            <img
+              src="img/logos/udemy_logo_1-removebg-preview.png"
+              alt="The New York Times logo"
+            />
+            <img
+              src="img/logos/educative_logo-removebg-preview.png"
+              alt="Forbes logo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="aboutMe">
+        <div class="container">
+          <span class="subheading">A little about me</span>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Education & Career Goals</h3>
+            <p class="step-description">
+              I earned my Bachelor of Science in Computer Science from the
+              University of South Africa (UNISA). In addition to my formal
+              education, I have continued to expand my knowledge through online
+              courses on platforms like Udemy. My career goal is to design,
+              build, and manage robust software systems, contributing to
+              innovative solutions in the tech industry.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/logos/brain_icon-removebg-preview.png"
+              class="step-img image-color"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/logos/work_icon.png"
+              class="step-img image-color"
+              alt="iPhone app
+            meal approving plan screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Work Experience</h3>
+            <p class="step-description">
+              While my experience in the software industry is limited, I have
+              had the opportunity to work on various projects and roles that
+              demonstrate my adaptability and problem-solving skills. I
+              developed a copper tracking system for a company, which gave me
+              hands-on experience in creating practical solutions. Additionally,
+              I have coached badminton for a year, worked as a bartender,
+              managed social media marketing, and served as an inventory manager
+              for a clothing company. In the latter role, I even wrote scripts
+              to streamline inventory management by sorting data and generating
+              SKU codes.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Hobbies & Interests</h3>
+            <p class="step-description">
+              Outside of work, I am passionate about gaming and enjoy movies
+              like Dune and Star Wars. However, my favorite activities involve
+              sports and physical exercise. I love going to the gym, playing
+              padel, and participating in indoor football or any other sports
+              whenever I get the chance.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/logos/runningman-removebg-preview.png"
+              class="step-img image-color"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="projects">
+        <div class="container center-text">
+          <span class="subheading">Projects</span>
+          <h2 class="heading-secondary">
+            All Projects can be found on my Github
+          </h2>
+        </div>
+
+        <div
+          class="container card-container grid grid--3-cols margin-bottom-md"
+        >
+          <!-- Project 1 -->
+          <a
+            href="https://github.com/jonathancs50/recipe-sharing-site-with-next"
+            class="link_function no-focus"
+          >
+            <div class="tutorial meal">
+              <img
+                src="img/projects/food-recipe.png"
+                class="meal-img"
+                alt="Project"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag--js">JS</span>
+                  <span class="tag tag--next">NEXT.JS</span>
+                  <span class="tag tag--react">REACT</span>
+                  <span class="tag tag--sqlite">SQLITE3</span>
+                </div>
+                <p class="meal-title">NEXT Recipe Website</p>
+                <span class="project-description">
+                  A food recipe website allowing users to share their recipes
+                  and explore a variety of dishes from others.
+                </span>
+              </div>
+            </div>
+          </a>
+          <!-- Project 2 -->
+          <a
+            href="https://github.com/jonathancs50/Bookshop-management-system-with-UDP"
+            class="link_function no-focus"
+          >
+            <div class="meal">
+              <img
+                src="img/projects/Bookshop.png"
+                class="meal-img"
+                alt="Project"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag--cpp">C++</span>
+                  <span class="tag tag--qt">Qt</span>
+                </div>
+                <p class="meal-title">Bookshop System</p>
+                <span class="project-description">
+                  A Qt-based bookshop management system with two apps: one for
+                  tracking transactions and inventory; the other listens for and
+                  receives XML transaction data via <strong>UDP</strong>
+                </span>
+              </div>
+            </div>
+          </a>
+          <!-- Project 3 -->
+          <a
+            href="https://github.com/jonathancs50/Copper-Tracking-System"
+            class="link_function no-focus"
+          >
+            <div class="meal">
+              <img
+                src="img/projects/copper.png"
+                class="meal-img"
+                alt="Project"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag--js">JS</span>
+                  <span class="tag tag--sqlite">SQLITE3</span>
+                </div>
+                <p class="meal-title">Copper Tracking System</p>
+                <span class="project-description">
+                  A system to keep track of copper loss for a electrical company
+                  using JavaScript,EJS and SQLITE3.
+                </span>
+              </div>
+            </div>
+          </a>
+          <!-- Project 4 -->
+          <!-- <a
+            href="https://github.com/jonathancs50/Portfolio"
+            class="link_function no-focus"
+          >
+            <div class="meal">
+              <img src="img/meals/meal-2.jpg" class="meal-img" alt="Project" />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag--vegan">Vegan</span>
+                  <span class="tag tag--paleo">Paleo</span>
+                </div>
+                <p class="meal-title">Project 4</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>400</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon
+                      class="meal-icon"
+                      name="restaurant-outline"
+                    ></ion-icon>
+                    <span>NutriScore &reg; <strong>92</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>4.8</strong> rating (441)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a> -->
+          <!-- Project 5 -->
+          <a
+            href="https://github.com/jonathancs50/BMI-calculator"
+            class="link_function no-focus"
+          >
+            <div class="meal">
+              <img
+                src="img/projects/BMI-cal.png"
+                class="meal-img"
+                alt="Project"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag--cpp">C++</span>
+                  <span class="tag tag--qt">Qt</span>
+                </div>
+                <p class="meal-title">BMI Calculator</p>
+                <span class="project-description">
+                  A calculator that calculates your body mass index using Qt
+                  Creator .
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="https://github.com/jonathancs50" class="link link_function"
+            >See all Projects &rarr;</a
+          >
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="skill">
+        <div class="testimonials-container">
+          <span class="subheading">Programming Skills</span>
+          <h2 class="heading-secondary">
+            Programming Languages and Frameworks
+          </h2>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Experience:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>C++</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>QtCreator</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>JavaScript</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Node.js</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>React</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Next.js</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>HTML</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>CSS</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Git</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Python</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="img/gallery/js_logo.png" alt="JS logo" />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/cpp_logo.png" alt="cpp logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/react_logo.png" alt="React logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/git_logo.png" alt="git logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/node_logo.png" alt="nodejs logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/mongo_logo.png" alt="MongoDB logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/python_logo.png" alt="python logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/sqlite_logo.png" alt="Sqlite logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/nextjs logo.png" alt="Nextjs logo" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/html_logo.png" alt="HTML logo" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/Qt.png" alt="Qt logo" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/CSS_logo.png" alt="CSS logo" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing">
+        <div class="testimonials-container">
+          <span class="subheading">Soft Skills</span>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="school-outline"></ion-icon>
+            <p class="feature-title">Leadership</p>
+            <p class="feature-text">
+              I honed my leadership skills while coaching badminton at a school,
+              where I was responsible for guiding and mentoring students to
+              improve their skills and teamwork.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="chatbubbles-outline"
+            ></ion-icon>
+            <p class="feature-title">Communication</p>
+            <p class="feature-text">
+              Working as a bartender and coaching badminton required strong
+              communication skills, whether it was engaging with customers or
+              effectively conveying instructions to students.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="extension-puzzle-outline"
+            ></ion-icon>
+            <p class="feature-title">Problem-Solving</p>
+            <p class="feature-text">
+              As an inventory manager, I frequently encountered challenges in
+              organizing stock and created scripts to streamline the inventory
+              process, which sharpened my problem-solving abilities.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="people-outline"></ion-icon>
+            <p class="feature-title">Teamwork</p>
+            <p class="feature-text">
+              I have always thrived in team environments, whether it was
+              collaborating with colleagues as an inventory manager or working
+              with others in various sports settings.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Adaptability</p>
+            <p class="feature-text">
+              My diverse work experiences, from bartending to social media
+              captioning, have taught me to quickly adapt to different roles and
+              responsibilities.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="time-outline"></ion-icon>
+            <p class="feature-title">Time Management</p>
+            <p class="feature-text">
+              Balancing multiple responsibilities,has helped me develop strong
+              time management skills to meet deadlines and manage workloads
+              effectively.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="call-outline"></ion-icon>
+            <p class="feature-title">Customer Service</p>
+            <p class="feature-text">
+              Bartending provided valuable experience in customer service, where
+              I learned to anticipate customer needs, handle requests, and
+              ensure a positive experience for everyone.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="search-outline"></ion-icon>
+            <p class="feature-title">Attention to Detail</p>
+            <p class="feature-text">
+              As an inventory manager, attention to detail was crucial in
+              accurately tracking stock and creating SKU codes, ensuring that
+              everything was organized and accounted for.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="resume">
+        <div class="container">
+          <span class="subheading">Learnings</span>
+          <h2 class="heading-secondary">Completed courses & Currently doing</h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <!-- Course 1 -->
+          <a
+            href="https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=C1WEBSITE1010&utm_source=mycoupon&utm_medium=website1010&utm_campaign=website1010"
+            class="link_function no-focus"
+            target="_blank"
+          >
+            <div class="course course--complete course-left-col">
+              <img
+                src="img/Courses/HTML_CSS_C1.png"
+                class="course-img"
+                alt="course picture"
+              />
+              <header class="plan-header">
+                <p class="plan-name">
+                  Build Responsive Real-World Websites with HTML and CSS
+                </p>
+                <p class="plan-text">Completed</p>
+              </header>
+            </div>
+          </a>
+          <!-- Course 2 -->
+          <a
+            href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3WEBSITE1010&utm_source=mycoupon&utm_medium=website1010&utm_campaign=website1010"
+            class="link_function no-focus"
+          >
+            <div class="course course--complete">
+              <img
+                src="img/Courses/JS_Course.png"
+                class="course-img"
+                alt="course picture"
+              />
+              <header class="plan-header">
+                <p class="plan-name">
+                  The Complete JavaScript Course 2024: From Zero to Expert!
+                </p>
+                <p class="plan-text">Completed</p>
+              </header>
+            </div>
+          </a>
+          <!-- Course 3 -->
+          <a
+            href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=ST10MT8624"
+            class="link_function no-focus"
+          >
+            <div class="course course--complete course-left-col">
+              <img
+                src="img/Courses/react_course.jpg"
+                class="course-img"
+                alt="course picture"
+              />
+              <header class="plan-header">
+                <p class="plan-name">
+                  React - The Complete Guide 2024 (incl. Next.js, Redux)
+                </p>
+                <p class="plan-text">Completed</p>
+              </header>
+            </div>
+          </a>
+          <!-- Course 4 -->
+          <a
+            href="https://www.udemy.com/nodejs-express-mongodb-bootcamp/?couponCode=WEBSITE510"
+            class="link_function no-focus"
+          >
+            <div class="course course--complete">
+              <img
+                src="img/Courses/Node_Course.png"
+                class="course-img"
+                alt="course picture"
+              />
+              <header class="plan-header">
+                <p class="plan-name">
+                  Node.js, Express, MongoDB & More: The Complete Bootcamp
+                </p>
+                <p class="plan-text">Completed</p>
+              </header>
+            </div>
+          </a>
+          <!-- Course 5 -->
+          <a
+            href="https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols/?couponCode=ST10MT8624"
+            class="link_function no-focus"
+          >
+            <div class="course course--starter course-left-col">
+              <img
+                src="img/Courses/backend_course.png"
+                class="course-img"
+                alt="course picture"
+              />
+              <header class="plan-header">
+                <p class="plan-name black">
+                  Fundamentals of Backend Engineering
+                </p>
+                <p class="plan-text bold">Currently doing</p>
+              </header>
+            </div>
+          </a>
+          <!-- Course 6 -->
+          <a
+            href="https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers"
+            class="link_function no-focus"
+          >
+            <div class="course course--starter">
+              <img
+                src="img/Courses/system_design_course.jpg"
+                class="course-img"
+                alt="course picture"
+              />
+              <header class="plan-header">
+                <p class="plan-name black">
+                  Grokking Modern System Design Interview for Engineers &
+                  Managers
+                </p>
+                <p class="plan-text bold">Currently doing</p>
+              </header>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- <section class="section-blogs" id="blog">
+        <div class="testimonials-container">
+          <span class="subheading margin-bot">Blogs</span>
+
+          <div class="diets">
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+                <span>C++</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+                <span>QtCreator</span>
+              </li>
+            </ul>
+          </div>
+          <aside class="plan-details">
+            The following blogs are written by me as I continue to learn. If you
+            find any incorrect information or errors, please contact me at
+            jonloxton15@gmail.com
+          </aside>
+        </div>
+      </section> -->
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Contact Information</h2>
+              <p class="cta-text">
+                Thank you for visiting my portfolio!! If interested in
+                contacting me you can find my email address, LinkedIn and GitHub
+                profiles below:
+              </p>
+
+              <div class="cta-form">
+                <div>
+                  <label for="full-name">Full Name:</label>
+                  <label class="cta-form_label">Jonathan Loxton</label>
+                </div>
+
+                <div>
+                  <label for="email">Email address:</label>
+                  <label class="cta-form_label"
+                    ><a
+                      class="footer-link font-footer"
+                      href="mailto:jonloxton15@gmail.com"
+                      >jonloxton15@gmail.com</a
+                    ></label
+                  >
+                </div>
+
+                <button class="btn btn--form no-focus linkedIn_button">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </button>
+
+                <button class="btn btn--form no-focus github_button">
+                  <ion-icon name="logo-github"></ion-icon>
+                </button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </div>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a class="logo main-nav-link margin-bot no-focus" href="#">
+            Jonathan<span class="fullstop_style">.</span>Loxton
+          </a>
+
+          <p class="copyright">
+            Jonathan Loxton &copy; <span class="year">2024</span>
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact me</p>
+          <address class="contacts">
+            <p>
+              <a
+                class="footer-link font-footer no-focus"
+                href="mailto:jonloxton15@gmail.com"
+                >jonloxton15@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Located</p>
+          <address class="contacts">
+            <p class="address">
+              Johannesburg, Gauteng <br />Ballito, Kwazulu-Natal
+            </p>
+          </address>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Socials</p>
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link no-focus link_function"
+                href="https://www.linkedin.com/in/jonathan-loxton-1888111bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0qIhd04AToi5cSSxtKaRfQ%3D%3D"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link no-focus link_function"
+                href="https://github.com/jonathancs50"
+              >
+                <ion-icon class="social-icon" name="logo-github"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
