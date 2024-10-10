@@ -338,6 +338,12 @@
 .tag--js {
   background-color: #ffd43b;
 }
+.tag--pm {
+  background-color: #f66935;
+}
+.tag--mg {
+  background-color: #4da53f;
+}
 .tag--next {
   background-color: #333;
   color: white;
@@ -376,6 +382,21 @@
   font-weight: 700;
   color: #333;
   background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.recommend::after {
+  content: "recommend";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #659ad2;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
