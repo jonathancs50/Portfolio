@@ -396,17 +396,17 @@
   transform: rotate(45deg);
 }
 .new::after {
-  content: "New";
+  content: "  Video Included";
   position: absolute;
   top: 6%;
   right: -18%;
 
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #333;
   background-color: #ffd43b;
-  padding: 0.8rem 8rem;
+  padding: 1rem 8rem;
   transform: rotate(45deg);
 }
 .recommend::after {
